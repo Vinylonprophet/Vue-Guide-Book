@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/response-basics',
       name: 'responsebasics',
       component: () => import('../views/ResponseBasicsView.vue'),
+    },
+    {
+      path: '/computed-property',
+      name: 'computedproperty',
+      component: () => import('../views/ComputedPropertyView.vue'),
     }
   ],
 })
