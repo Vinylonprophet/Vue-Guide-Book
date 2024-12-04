@@ -13,6 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/template-syntax">Template Syntax</RouterLink>
         <RouterLink to="/response-basics">Response Basics</RouterLink>
         <RouterLink to="/computed-property">Computed Property</RouterLink>
+        <RouterLink to="/class-style-binding">Class And Style Binding</RouterLink>
       </nav>
     </div>
   </header>

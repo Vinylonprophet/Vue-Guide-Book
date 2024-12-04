@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/computed-property',
       name: 'computedproperty',
       component: () => import('../views/ComputedPropertyView.vue'),
+    },
+    {
+      path: '/class-style-binding',
+      name: 'classstylebinding',
+      component: () => import('../views/ClassStyleBindingView.vue'),
     }
   ],
 })
