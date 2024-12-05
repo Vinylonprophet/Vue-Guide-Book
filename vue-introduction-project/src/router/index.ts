@@ -41,6 +41,11 @@ const router = createRouter({
       path: '/conditional-renderding',
       name: 'conditionalrendering',
       component: () => import('../views/ConditionalRenderingView.vue'),
+    },
+    {
+      path: '/list-renderding',
+      name: 'listrendering',
+      component: () => import('../views/ListRenderingView.vue'),
     }
   ],
 })
