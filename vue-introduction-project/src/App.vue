@@ -17,6 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/conditional-renderding">Conditional Rendering</RouterLink>
         <RouterLink to="/list-renderding">List Rendering</RouterLink>
         <RouterLink to="/event-handling">Event Handling</RouterLink>
+        <RouterLink to="/form-input-binding">Form Input Binding</RouterLink>
       </nav>
     </div>
   </header>
