@@ -56,7 +56,12 @@ const router = createRouter({
       path: '/form-input-binding',
       name: 'forminputbinding',
       component: () => import('../views/FormInputBindingView.vue'),
-    }
+    },
+    {
+      path: '/life-cycle',
+      name: 'lifecycle',
+      component: () => import('../views/LifeCycleView.vue'),
+    },
   ],
 })
 
